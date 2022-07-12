@@ -14,6 +14,12 @@ Esta aplicación hace uso de la librería express de NodeJS, y aplica el patrón
 ## Enpoints utilizados
 Para poder acceder a la aplicación debes usar los siguientes endpoints.
 
-> /api/pokemons para peticiones GET
+> /api/pokemons para peticiones GET 
 >
 > /api/pokemon para peticiones POST
+
+## Ejemplos de peticiones
+GET
+http://localhost:3977/api/pokemons?limit=5&page=3&search=cha
+http://localhost:3977/api/pokemons?limit=5&page=3
+http://localhost:3977/api/pokemons
