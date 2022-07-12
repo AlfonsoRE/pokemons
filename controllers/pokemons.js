@@ -13,10 +13,9 @@ function pruebas(req, res) {
 }
 
 async function pokemons(req, res) {
-    let params = req.body;
-    const page = params.page;
-    const limit = params.limit;
-    const search = params.search;
+    const page = req.query.page;
+    const limit = req.query.limit;
+    const search = req.query.search;
     const parametros = "?limit=100000&offset=0";
 
     let pokemons = null;
