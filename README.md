@@ -25,3 +25,6 @@ GET
 > <http://localhost:3977/api/pokemons?limit=5&page=3> 
 >
 > <http://localhost:3977/api/pokemons>
+
+POST Pasar variable por body "name" nombre del pokemon 
+> <http://localhost:3977/api/pokemon>
