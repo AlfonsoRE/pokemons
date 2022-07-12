@@ -20,6 +20,6 @@ Para poder acceder a la aplicación debes usar los siguientes endpoints.
 
 ## Ejemplos de peticiones
 GET
-1.- http://localhost:3977/api/pokemons?limit=5&page=3&search=cha
-2.- http://localhost:3977/api/pokemons?limit=5&page=3
-3.- http://localhost:3977/api/pokemons
+> http://localhost:3977/api/pokemons?limit=5&page=3&search=cha
+> http://localhost:3977/api/pokemons?limit=5&page=3
+> http://localhost:3977/api/pokemons
